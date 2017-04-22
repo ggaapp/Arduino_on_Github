@@ -10,5 +10,11 @@ void loop(){
     delay(1000);
   }
   tone(A0,1984);
-  delay(5000);
+  delay(2000);
+  noTone(A0);
+  for(int i = 8; i<=12; i++){
+    digitalWrite(i, 0);
+    delay(1000);
+  }
 }
+
