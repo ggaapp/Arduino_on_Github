@@ -1,0 +1,14 @@
+void setup(){
+  for (int i = 8; i<=12; i++){
+    pinMode(i, OUTPUT);
+  }
+  pinMode(A0, OUTPUT);
+}
+void loop(){
+  for(int i = 8; i<=12; i++){
+    digitalWrite(i, 1);
+    delay(1000);
+  }
+  tone(A0,1984);
+  delay(5000);
+}
