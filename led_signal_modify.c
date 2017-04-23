@@ -18,14 +18,14 @@ void setup()  {
 }
 
 void loop() {
-  for (i = 13; i>9; i--) {
-    digitalWrite(i, HIGH);  delay(stay);
-  }
+    for (i = 13; i>9; i--) {
+      digitalWrite(i, HIGH);  delay(stay);
+    }
 
-  for (i = 13; i>9; i--)  {
-    digitalWrite(i, LOW); delay(stay);
-  }
+    for (i = 13; i>9; i--)  {
+      digitalWrite(i, LOW); delay(stay);
+    }
 
   digitalWrite(buz_n0, HIGH); delay(stay);
   digitalWrite(buz_n0, LOW);  delay(stay);
-}
+  }
