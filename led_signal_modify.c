@@ -1,5 +1,5 @@
-int led_n0 = 13 ;
-int led_n1 = 12 ;
+int led_n0 = 13;
+int led_n1 = 12;
 int led_n2 = 11;
 int led_n3 = 10;
 int led_n4 = 9;
@@ -23,7 +23,7 @@ void loop() {
     }
 
     for (i = 13; i>9; i--)  {
-      digitalWrite(i, LOW); delay(stay);
+      digitalWrite(i, LOW);   delay(stay);
     }
 
   digitalWrite(buz_n0, HIGH); delay(stay);

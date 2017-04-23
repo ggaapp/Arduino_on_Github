@@ -1,26 +1,32 @@
-## Experimental Modification - 01 (Exp01)
+## <b>Experimental Modification-01(oni-Exp01)</b>
 
-- nCho2_LEDs_SWs.c
->1. Repeat blinking by 0.5 seconds, continously
-  - pull-dowb swith logic
-  - pill-up switch logic
-  - Use multi number of LED like a traffic signal (moving arrow)
+#### 1. nCho2_LEDs_SWs.c
+* Repeat blinking by 0.5 seconds, continously
+- Traffic signal (moving arrow) + Buzzer combo
+  * led_signal_modify.c = for JJM.
+  - Add More.....
+- Pull-dowb swith logic = Use IF Argument..
+- Pull-up switch logic = and INPUT signals
 
-<table border='0'>
+#### 2. Etc : Not included on Book
+* Fan & Relay = Manage Humid and water level
+- Xmas carrol = Buzzer tone and play
+
+
+<table width='600' border='0'>
   <tr><th>
           <a href="https://github.com/onitonitonito">
           <img src="https://onitonitonito.github.io/imgs/Github_page.png" width="130" /></a>
       </th>
-      <th width="350">
+      <th width="300">
               <div align='left'>
                     <ul>
-                      <li>Get your Brains rolling!</li>
-                      <li>Git is not GitHub</li>
-                      <li>ArDuino Study Group</li>
-                      <li>Do! Roll! Communicate!</li>
+                          <li>Get your Brains rolling!</li>
+                          <li>Git is not GitHub</li>
+                          <li>Do! Roll! Communicate!</li>
+                          <li>ArDuino Study Group</li>
                     </ul>
               </div><br>https://github.com/onito
-        <br><br>
         </th>
         <th>
       <img src="https://onitonitonito.github.io/imgs/octocat704x605.jpg" width="150" />
