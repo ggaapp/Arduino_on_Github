@@ -3,14 +3,21 @@
 #### 1. nCho2_LEDs_SWs.c
 * Repeat blinking by 0.5 seconds, continously
 - Traffic signal (moving arrow) + Buzzer combo
-  * led_signal_modify.c = for JJM.
+  * led_signal_modify.c = for JJM. (<b>OK</B>)
   - Add More.....
 - Pull-dowb swith logic = Use IF Argument..
 - Pull-up switch logic = and INPUT signals
 
-#### 2. Etc : Not included on Book
+#### 2. Etc : Not included on the Book
 * Fan & Relay = Manage Humid and water level
-- Xmas carrol = Buzzer tone and play
+- Xmas carrol = passive buzzer : tone and play
+
+#### 3. 3wii : Not included on the Book
+* kboardLogOut.c = One button Ctrl+Alt+del
+- kboardMessage.c = printout on console
+- mouseButtonCon.c = Mouse cursor control
+- serialReadOut.c = Serial transfer Protocol
+  - refer = https://goo.gl/ZEej62
 
 
 <table width='600' border='0'>
