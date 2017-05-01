@@ -1,0 +1,19 @@
+void setup(){
+  for(int i =5;i<14;i++){
+    pinMode(i, OUTPUT);
+  }
+  pinMode(2, INPUT);
+}
+
+void loop(){
+  if(digitalRead(2) == HIGH ){
+    for(int j=5;j<14;j++){
+      digitalWrite(j, 1);
+      delay(200);
+    }
+    for(int k = 13; k>5;k--){
+      digitalWrite(k, 0);
+      delay(200);
+    }
+  }
+}
