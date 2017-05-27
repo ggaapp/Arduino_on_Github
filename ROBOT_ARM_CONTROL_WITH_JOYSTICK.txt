@@ -1,0 +1,32 @@
+#include <Servo.h>
+const int x = A4, y = A5, ser1 = 3, ser2 = 5, buzz = 9, sw = 11;
+int i=0;
+float valx, valy;
+Servo arm1, arm2;
+void setup(){
+  arm1.attach(ser1);
+  arm2.attach(ser2);
+  pinMode(buzz, OUTPUT);
+  arm1.write(4);
+  arm2.write(4);
+}
+
+void loop(){
+  if (i%2 == 0){
+    valx = analogRead(x)/6.5;
+    arm1.write(valx);
+    delay(20);
+    i++;
+  }
+  else {
+    valy = analogRead(y)/6.5;
+    arm2.write(valy);
+    delay(20);
+    i--;
+  }
+  if (digitalRead(sw) == LOW){
+    digitalWrite(buzz, HIGH);
+    delay(1000);
+    digitalWrite(buzz, LOW);
+  }
+}
